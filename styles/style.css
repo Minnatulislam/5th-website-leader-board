@@ -1,4 +1,28 @@
-body{
+body {
+    /* fonts */
     font-family: 'Lato', sans-serif;
+    background-color: #E5E5E5;
     margin: 0px;
+
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+/* top players style */
+.players {
+    display: grid;
+    /* grid-template-columns: repeat(1fr 1fr 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
 }
